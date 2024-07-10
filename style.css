@@ -106,6 +106,28 @@ p{
     #main-doc{
         margin: 290px 0px;
     }
+@media screen and (max-width: 423px) {
+    #navbar{
+        max-height: 305px;
+    }
+    #main-doc{
+        margin-top: 320px;
+    }
+}
 
+@media screen and (max-width: 230px){
+    #navbar header{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 200px){
+    #navbar{
+        max-height: 320px;
+    } 
+    #main-doc{
+        margin-top: 340px;
+    }   
+}
 
 }
