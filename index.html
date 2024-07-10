@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <p> 
+                    C++ is a general-purpose programming language emphasizing the design and use of type-rich, lightweight abstractions. It is particularly suited for resource-constrained applications, such as those found in software infrastructures. C++ rewards the programmer who takes the time to mastertechniques for writing quality code. C++ is a language for someone who takes the task of programming seriously. Our civilization depends critically on software; it had better be quality software.
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="Learning_C++">
+            <header>Learning C++</header>
+            <article>
+                <p>
+                    The most important thing to do when learning C++ is to focus on fundamental concepts (such as type safety, resource management, and invariants) and programming techniques (such as resource management using scoped objects and the use of iterators in algorithms) and not get lost in language-technical details.
+                </p>
+                <p>
+                    The purpose of learning a programming language is to become a better programmer, that is, to become more effective at designing and implementing new systems and at maintaining old ones. For this, an appreciation of programming and design techniques is far more important than understanding all the details. The understanding of technical details comes with time and practice.
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="Programming_in_C++">
+            <header>Programming in C++</header>
+            <article>
+                <p>
+                    The question "How does one write good programs in C++?" is very similar to the question "How does one write good English prose?".There are two answers: "Know what you want to say" and "Practice. Imitate good writing." Both appear to be as appropriate for C++ as they are for English – and as hard to follow.
+                </p>
+                <p>
+                    The main ideal for C++ programming – as for programming in most higher-level languages – is to express concepts (ideas, notions, etc.) from a design directly in code:
+                </p>
+                <ul>
+                    <li>Represent ideas directly in code.</li>
+                    <li>Represent relationships among ideas directly in code</li>
+                    <li>Represent independent ideas independently in code.</li>
+                    <li>Keep simple things simple (without making complex things impossible)</li>
+                    <li>Prefer statically type-checked solutions (when applicable).</li>
+                    <li>Keep information local (e.g., avoid global variables, minimize the use of pointers).</li>
+                    <li>Don’t overabstract (i.e., don’t generalize, introduce class hierarchies, or parameterize beyond obvious needs and experience)</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="Hello_world!">
+            <header>Hello world!</header>
+            <article>
+                <p>
+                    Every C++ program must have exactly one global function named code.code-inline main(). The program starts by executing that function. The int value returned by main(), if any, is the program’s return value to "the system". If no value is returned, the system will receive a value indicating successful completion. A nonzero value from main() indicates failure. Not every operating system and execution environment make use of that return value: Linux/Unix-based environments often do, but Windows-based environments rarely do.
+                </p>
+                <p>
+                    Every C++ program must have exactly one global function named main(). The program starts by executing that function. The int value returned by main(), if any, is the program’s return value to "the system". If no value is returned, the system will receive a value indicating successful completion. A nonzero value from main() indicates failure. Not every operating system and execution environment make use of that return value: Linux/Unix-based environments often do, but Windows-based environments rarely do.
+                </p>
+                <p>
+                    Typically, a program produces some output. Here is a program that writes <code class="code-inline">Hello, World</code> <br>
+                    <code class="code-block">
+                        #include <iostream> <br>
+                        int main(){ <br>
+                        std::cout << "Hello, World!";}
+                    </code>
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="Types_and_Variables">
+            <header>Types and Variables</header>
+            <article>
+                <p>
+                    Every name and every expression has a type that determines the operations that may be performed on it. For example, the declaration:
+                    <code class="code-inline"> int inch; </code>
+                    specifies that inch is of type <code class="code-inline">int;</code> that is, inch is an integer variable. A declaration is a statement that introduces a name into the program. It specifies a type for the named entity:
+                </p>
+                <ul>
+                    <li>A type defines a set of possible values and a set of operations (for an object)</li>
+                    <li>An object is some memory that holds a value of some type.</li>
+                    <li>A value is a set of bits interpreted according to a type</li>
+                    <li>A variable is a named object.</li>
+                </ul>
+                <p>
+                    C++ offers a variety of fundamental types. For example:
+                    <code class="code-block">
+                        bool// Boolean, possible values are true and false <br>
+                        char// character, for example, 'a', ' z', and '9' <br>
+                        int// integer, for example, 1, 42, and 1066 <br>
+                        double// double-precision floating-point number, for example, 3.14 and 299793.0
+                    </code>
+                </p>
+            </article>
+        </section>
+        <nav id="navbar">
+            <header>C++ Beginner Documentation</header>
+            <ul>
+                <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+                <li><a href="#Learning_C++" class="nav-link">Learning C++</a></li>
+                <li><a href="#Programming_in_C++" class="nav-link">Programming in C++</a></li>
+                <li><a href="#Hello_world!" class="nav-link">Hello world!</a></li>
+                <li><a href="#Types_and_Variables" class="nav-link">Types and Variables</a></li>
+            </ul>
+        </nav>
+    </main>
+</body>
+</html>
